@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_bloginfo('wpurl'); ?>/assets/img/favicon.ico">
 
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/modernizr-2.6.2.min.js"></script>
 
