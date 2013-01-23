@@ -10,9 +10,8 @@
             <div class="sourceboards"><a href="http://www.sourceboards.com">www.sourceboards.com</a><br />toll free 1-877-576-8723</div>
         </div>
         <div class="brand-text">
-            <div class="facebook"><a href="https://www.facebook.com/sourceboards"><img src="<?php echo get_bloginfo('wpurl'); ?>/assets/img/facebook.jpg" alt="Facebook" />/sourceboards</a></div>
-
-            <div class="twitter"><a href="https://twitter.com/sourceboards"><img src="<?php echo get_bloginfo('wpurl'); ?>/assets/img/twitter.jpg" alt="Twitter" />#sourceboards</a></div>
+            <div class="facebook"><a href="https://www.facebook.com/sourceboards" target="_blank"><img src="<?php echo get_bloginfo('wpurl'); ?>/assets/img/facebook.jpg" alt="Facebook" />/sourceboards</a></div>
+            <div class="twitter"><a href="https://twitter.com/sourceboards" target="_blank"><img src="<?php echo get_bloginfo('wpurl'); ?>/assets/img/twitter.jpg" alt="Twitter" />#sourceboards</a></div>
         </div>
     </div>
 </div>
