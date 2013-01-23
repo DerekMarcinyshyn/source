@@ -5,15 +5,19 @@
                 <img src="<?php echo get_bloginfo('wpurl'); ?>/assets/img/source.png" width="334" height="124" alt="The Source Skate and Snowboard Shop"/>
             </a>
         </div>
+
+        <div class="sourceboards-container">
+            <div class="sourceboards"><a href="http://www.sourceboards.com">www.sourceboards.com</a><br />toll free 1-877-576-8723</div>
+        </div>
         <div class="brand-text">
             <div class="facebook"><a href="https://www.facebook.com/sourceboards"><img src="<?php echo get_bloginfo('wpurl'); ?>/assets/img/facebook.jpg" alt="Facebook" />/sourceboards</a></div>
-            <div class="sourceboards"><a href="http://www.sourceboards.com">www.sourceboards.com</a><br />toll free 1-877-576-8723</div>
+
             <div class="twitter"><a href="https://twitter.com/sourceboards"><img src="<?php echo get_bloginfo('wpurl'); ?>/assets/img/twitter.jpg" alt="Twitter" />#sourceboards</a></div>
         </div>
     </div>
 </div>
 
-<header id="banner" class="navbar" role="banner">
+<header id="banner" class="navbar navbar-fixed-top" role="banner">
   <div class="navbar-inner">
     <div class="container">
       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">

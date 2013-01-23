@@ -1,6 +1,9 @@
-<footer id="content-info" class="container" role="contentinfo">
-  <?php dynamic_sidebar('sidebar-footer'); ?>
-  <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
+<footer id="content-info" role="contentinfo">
+    <div class="container">
+        <?php dynamic_sidebar('sidebar-footer'); ?>
+        <p class="copyright">&copy; <?php echo date('Y'); ?> The Source Skate and Snowboard Shop</p>
+        <p class="design">Site::<a href="http://monasheemountainmultimedia.com">MMM</a></p>
+    </div>
 </footer>
 
 <?php if (GOOGLE_ANALYTICS_ID) : ?>
