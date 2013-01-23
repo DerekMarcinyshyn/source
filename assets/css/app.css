@@ -13,10 +13,18 @@ body { }
 #banner { }
 
 /* Fixed Topbar Navigation */
-body.top-navbar { padding-top: 60px; }
+body.top-navbar { }
 body.admin-bar .navbar-fixed-top { top: 28px; }
 
+.upper { margin: 10px 0; }
+.brand-container { width: 334px; margin:0 auto; }
 .navbar .brand { padding: 0 20px; }
+.brand-text { }
+.facebook, .sourceboards, .twitter { display: inline-block; }
+.facebook { float: left; }
+.twitter { float: right; }
+.sourceboards { text-align: center; color: #FF0000; font-size: 24px; font-weight: bold; text-transform: uppercase; }
+.facebook a, .sourceboards a, .twitter a { color: #000; text-transform: uppercase; font-size: 20px; font-weight: bold; }
 
 /* ==========================================================================
    Content
